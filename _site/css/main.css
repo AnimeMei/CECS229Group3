@@ -1,0 +1,133 @@
+html {
+  margin: 0;
+  padding: 0;
+
+  font: normal 100%/1.4 Georgia,serif;
+}
+
+.masthead {
+  padding: 1em;
+  /*background: #000531 url("../img/nebula.jpg") no-repeat center center;*/
+  background-size: cover;
+  color: #fff;
+}
+
+/*Banner image on Project page*/
+/*.masthead-ios {
+  background-image: url("../img/nebula-2.jpg");
+}*/
+
+.current {
+  background-color: #E0E4CC;
+  color:#fff;
+}
+
+.nav{
+  margin: 0;
+  padding: 0;
+
+  list-style-type: none;
+}
+
+.nav > li {
+  display: inline-block;
+}
+
+.nav-top {
+  font-size: 1.25rem;
+}
+
+.nav a {
+	margin-left: 10px;
+	font-weight: normal;
+	color: #5f5f5f;
+	text-decoration: none;
+}
+
+/*Using custom font*/
+/*@font-face {
+	font-family: slkscreimport;
+	src:("slkscre.ttf");
+}*/
+
+body {
+	font-family: Arial, sans-serif;
+	/*font-family: slkscreimport; */
+	color: #5f5f5f;
+	letter-spacing: 2px;
+
+	font-smooth: never;
+  -webkit-font-smoothing : none;
+}
+
+a {
+	/*color: #8b00e0;*/
+	color: #00CED1;
+	font-weight: bold;
+}
+
+a:visited {
+	color: #42006a;
+}
+
+h1 {
+	font-size: 90px;
+	/*color: #ff9933;*/
+	color: #00CED1;
+	margin: 0;
+	line-height: 1;
+	padding: 0;
+}
+
+#top_container {
+	margin: 20px 0 50px 50px;
+}
+
+#info_container {
+	font-size: 22px;
+}
+
+.orange {
+	/*color: #ff9933;*/
+	color: #00CED1;
+	font-weight: bold;
+	font-size: 36px;
+}
+
+header {
+	text-align: right;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #ccc;
+}
+
+#marquee_container {
+	border-top: 1px solid #5f5f5f;
+	border-bottom: 1px solid #5f5f5f;
+	padding: 30px 0 30px 0;
+	margin: 0 50px;
+	text-align: center;
+	font-size: 26px;
+	line-height: 1.6;
+}
+
+#project_list_container {
+	margin: 30px 0 20px 50px;
+}
+
+.footer {
+  padding: 30px 0 0 0;
+  max-width: 980px;
+  text-align: center;
+  margin: auto;
+}
+
+.footer p {
+    font-size: 13px;
+}
+
+#all_projects {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+}
+

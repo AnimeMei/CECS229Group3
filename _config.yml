@@ -1,4 +1,4 @@
 markdown: kramdown
-baseurl: /adrianmei
+baseurl: /CECS229Group3
 exclude: ['README.md']
 permalink: pretty
