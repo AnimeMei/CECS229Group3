@@ -1,2 +1,3 @@
-# CECS229Group3
-A website for class CECS229 (contains lecture notes for students to review)
+# 26 Apps in 26 Weeks
+
+    Credit: Jekyll setup tutorial by Thomas Bradley

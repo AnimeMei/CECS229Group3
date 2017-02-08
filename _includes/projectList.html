@@ -1,0 +1,13 @@
+<ul>
+  {% for project in site.pages %}
+    {% if project.type == include.type %}
+      <li>
+        <a href="{{site.baseurl}}{{project.url}}">
+          <img src="{{site.baseurl}}/img/planets/{{project.image}}" alt="Photo of {{project.title}}">
+          {{project.title}}
+          <p>{{project.meta}}</p>
+        </a>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>

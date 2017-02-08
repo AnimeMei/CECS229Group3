@@ -1,0 +1,9 @@
+<nav>
+  <ul class="nav {{include.navclass}}">
+    <li><a href="{{site.baseurl}}/" class="{% if page.url == '/' %}current{% endif %}">Home</a></li>
+    <li><a href="{{site.baseurl}}/about/" class="{% if page.url == '/about/' %}current{% endif %}">About</a></li>
+    <li><a href="{{site.baseurl}}/projects/" class="{% if page.url contains 'projects' or page.url contains 'ios' or page.url contains 'android' %}current{% endif %}">Projects</a></li>
+    <li><a href="mailto:adrian.z.mei@gmail.com">Contact</a></li>
+    <li><a href="https://github.com/animemei" target="_blank">GitHub</a></li>
+  </ul>
+</nav>

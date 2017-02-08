@@ -1,0 +1,16 @@
+---
+layout: projectsLayout
+---
+
+<!-- <h1>iOS Projects</h1> -->
+
+<ul>
+  {% for project in site.tags.week2 %}
+  <li>
+      <h2>{{project.title}}</h2>
+      <p>{{project.meta}}</p>
+      <p>{{project.content}}</p>
+      <a href="{{project.source}}" target="_blank">Source Code</a>
+  </li>
+  {% endfor %}
+</ul>

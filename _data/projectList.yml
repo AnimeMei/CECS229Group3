@@ -1,0 +1,15 @@
+- title: Week 1 - Social Login
+  content: 'Login to iOS app through social medias'
+  folder: week1
+
+- title: Week 2 - Vacation Spots
+  content: 'Tourist Attractions in San Francisco using Google Maps API'
+  folder: week2
+
+- title: Week 3 - Flappy Bird
+  content: 'A clone of the popular game created with GameSalad'
+  folder: week3
+
+# - title: Week 4
+#   content: 'This is **week 4**. making progress'
+#   folder: android

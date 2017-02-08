@@ -1,0 +1,19 @@
+---
+layout: projectsLayout
+title: Projects
+mastheadClass: masthead-ios
+meta: creating ios mobile apps
+changefreq: weekly
+---
+  <h1> Projects !!!</h1>
+  <!--  Disaplay all ios projects using for loop-->
+  <ul>
+    {% for projects in site.categories.iOS %}
+    <li>
+        <h2>{{projects.title}}</h2>
+        <p>{{projects.meta}}</p>
+        <p>{{projects.content}}</p>
+        <a href="{{projects.source}}" target="_blank">Source Code</a>
+    </li>
+    {% endfor %}
+  </ul>

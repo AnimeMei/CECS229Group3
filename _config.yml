@@ -1,0 +1,4 @@
+markdown: kramdown
+baseurl: /adrianmei
+exclude: ['README.md']
+permalink: pretty

@@ -13,7 +13,6 @@ priority: 1.0
   </nav>
 </header> -->
 
-<!-- Customized header design -->
 <div id="top_container">
   <h1>Hello World !!!</h1>
   <div id="info_container">
@@ -23,19 +22,28 @@ priority: 1.0
   </div>
 </div>
 
-<!-- Welcom Message -->
 <div id="marquee_container">
-  <div>Today's Task: Sleep</div>
-  <!-- <a href="#">Final Exam Is Over!</a> -->
-  <p>Final Exam Is Over!</p>
+  <div>Today's Task</div>
+  <a href="#">Building Home page!</a>
 </div>
 
-<!-- redirect to "weeks" folder -->
+<!-- ***Do Not Delete*** Blow code loop through _data > projectList to home page-->
+<!-- <div id="project_list_container">
+  <ol>
+  {% for project in site.data.projectList %}
+    <li>
+      <a href="{{site.baseurl}}/projects/{{project.folder}}/">{{project.title}}</a>
+      {{project.content | markdownify}}
+  </li>
+  {% endfor %}
+  </ol>
+</div> -->
+
 <div id="project_list_container">
   <ol>
     {% for project in site.data.projectList %}
     <li>
-      <a href="{{site.baseurl}}/weeks/{{project.folder}}/">{{project.title}}</a>
+      <a href="{{site.baseurl}}/projects/{{project.folder}}/">{{project.title}}</a>
       {{project.content | markdownify}}
   </li>
   {% endfor %}
