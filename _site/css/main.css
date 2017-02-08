@@ -62,18 +62,18 @@ body {
 
 a {
 	/*color: #8b00e0;*/
-	color: #00CED1;
+	color: #1E8449;
 	font-weight: bold;
 }
 
 a:visited {
-	color: #42006a;
+	color: #1E8449;
 }
 
 h1 {
 	font-size: 90px;
 	/*color: #ff9933;*/
-	color: #00CED1;
+	color: #1E8449;
 	margin: 0;
 	line-height: 1;
 	padding: 0;
