@@ -10,6 +10,18 @@
   content: 'Integer Representations & Algorithms'
   folder: ch4.2
 
+- title: Week 3 - Chapter 4.3
+  content: 'Prime & GCD'
+  folder: ch4.3
+
+- title: Week 3 - Chapter 4.3 Continued - 4.4
+  content: 'Solving Congruences'
+  folder: ch4.3Continued
+
+- title: Week 4 - Chapter 4.4 Continued
+  content: 'Solving Congruences'
+  folder: ch4.4
+
 # - title: Week 3 - Flappy Bird
 #   content: 'A clone of the popular game created with GameSalad'
 #   folder: week3
