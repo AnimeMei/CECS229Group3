@@ -18,9 +18,13 @@
   content: 'Solving Congruences'
   folder: ch4.3Continued
 
-- title: Week 4 - Chapter 4.4 Continued
+- title: Week 4 - Chapter 4.4
   content: 'Solving Congruences'
   folder: ch4.4
+
+- title: Week 4 - Chapter 4.4 Chinese Remainder Theorem
+  content: 'Chinese Remainder Theorem Solving Congruences'
+  folder: ch4.4Continued
 
 - title: Week 5 - Chapter 4.6
   content: 'Encryption protocols'
