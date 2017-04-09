@@ -51,6 +51,23 @@
   content: 'VECTOR'
   folder: matrixch2
 
+- title: Week 8 - Coding The Matrix -- Chapter 2.6
+  content: 'COMBINING VECTOR ADDITION & SCALAR Multiplication'
+  folder: matrixch2.6
+
+- title: Week 8 - Coding The Matrix -- Vectors Part III
+  content: 'Vector spaces, Sub spaces, Linear Combination, Span, Generate'
+  folder: vectorPart3
+
+- title: Week 9 - Coding The Matrix -- Matrices Part I
+  content: 'Matrix, column / row space, Transpose, Symmetric, Matrix­Matrix Mult, Matrix ­ Vector'
+  folder: MatricesPart1
+
+- title: Week 9 - Coding The Matrix -- MATRICES CONTINUED
+  content: 'VECTOR MULTIPLICATION, upper triangular'
+  folder: MatricesPart2
+
+
 # - title: Week 3 - Flappy Bird
 #   content: 'A clone of the popular game created with GameSalad'
 #   folder: week3

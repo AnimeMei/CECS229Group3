@@ -7,10 +7,19 @@
 
   
     
+      <url>
+  <loc>http://animemei.github.io/CECS229Group3/</loc>
+    
+    
+      <priority>1.0</priority>
+    
+</url>
+
+    
   
     
       <url>
-  <loc>http://animemei.github.io/projects/</loc>
+  <loc>http://animemei.github.io/CECS229Group3/projects/</loc>
     
       <changefreq>weekly</changefreq>
     
@@ -32,14 +41,13 @@
     
   
     
-      <url>
-  <loc>http://animemei.github.io/</loc>
+  
     
+  
     
-      <priority>1.0</priority>
+  
     
-</url>
-
+  
     
   
     
